@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="text-primary">
+    <div class="grid md:grid-cols-4"><!-- content wrapper -->
+      <div class="md:col-span-1 bg-orange-50">
+        <nav class="text-right">
+          <div>
+            <h1 class="font-bold uppercase p-4 border-b border-gray-100 text-tertiary">
+              <a href="/" class="text-sm md:text-3xl hover:text-secondary-200 flex justify-center md:justify-end">Food maker</a>
+            </h1>
+          </div>
+          <ul class="text-sm md:text-m mt-6">
+            <li class="text-tertiary font-bold py-1 hover:text-secondary-200 hover:font-bold">
+              <a href="#" class="px-4 border-r-4 border-highlighter flex justify-center md:justify-end">
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="py-1 hover:text-secondary-200 hover:font-bold">
+              <a href="#" class="px-4 border-r-4 border-orange-50 flex justify-center md:justify-end">
+                <span>About</span>
+              </a>
+            </li>
+            <li class="py-1 hover:text-secondary-200 hover:font-bold">
+              <a href="#"class="px-4 border-r-4  border-orange-50 flex justify-center md:justify-end">
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <main class=" bg-orange-100 px-16 py-6 md:col-span-3">
+        <div class="flex justify-center md:justify-end">
+          <a href="#" class="text-tertiary btn border-tertiary  md:border-2 hover:bg-tertiary hover:text-gray-100 ">Log out</a>
+          <a href="#" class="text-tertiary border-tertiary ml-2 btn md:border-2  hover:bg-tertiary hover:text-gray-100">Sign up</a>
+        </div>
+ 
+        <header>
+          <h2 class="text-6xl font-semibold mt-6">Recipes</h2>
+          <h3 class="text-xl font-semibold mt-3">For John</h3>
+        </header>
+
+        <div>
+          <h4 class="font-bold mt-12 pb-2 border-b border-gray-200 text-secondary-200">Latest Recipes</h4>
+
+          <div class="mt-8 grid md:grid-cols-3 gap-10">
+            <!-- cards go here -->
+            <div class="card hover:shadow-lg">
+              <img src="/recipes/public/img/carbonara.jpg" alt="carbonara" class="w-full h-32 sm:h-48 object-cover" />
+              <div class="m-3">
+                <span class="font-body font-bold">Simple Carbonara</span>
+                <span class="font-body block text-sm text-gray-400" >Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span>25 mins</span>
+              </div>
+            </div>
+            <div class="card hover:shadow-lg">
+              <img src="/recipes/public/img/couscous.jpg" alt="couscous" class="w-full h-32 sm:h-48 object-cover" />
+              <div class="m-3">
+                <span class="font-body font-bold">Turkish Couscous</span>
+                <span class="font-body block text-sm text-gray-400" >Recipe by Joe</span>
+              </div>
+              <div class="badge">
+                <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span>20 mins</span>
+              </div>
+            </div>
+            <div class="card hover:shadow-lg">
+              <img src="/recipes/public/img/paella.jpg" alt="paella" class="w-full h-32 sm:h-48 object-cover" />
+              <div class="m-3">
+                <span class="font-body font-bold">Mediterran Paella</span>
+                <span class="font-body block text-sm text-gray-400" >Recipe by Kate</span>
+              </div>
+              <div class="badge">
+                <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span>30 mins</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+          <h4 class="font-bold mt-12 pb-2 border-b border-gray-200  text-secondary-200">Most popular</h4>
+
+            <div class="mt-8 grid md:grid-cols-3 gap-10">
+              <!-- cards go here -->
+              <div class="card hover:shadow-lg">
+                <img src="/recipes/public/img/carbonara.jpg" alt="carbonara" class="w-full h-32 sm:h-48 object-cover" />
+                <div class="m-3">
+                  <span class="font-body font-bold">Simple Carbonara</span>
+                  <span class="font-body block text-sm text-gray-400" >Recipe by Mario</span>
+                </div>
+                <div class="badge">
+                  <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  <span>25 mins</span>
+                </div>
+              </div>
+              <div class="card hover:shadow-lg">
+                <img src="/recipes/public/img/couscous.jpg" alt="couscous" class="w-full h-32 sm:h-48 object-cover" />
+                <div class="m-3">
+                  <span class="font-body font-bold">Turkish Couscous</span>
+                  <span class="font-body block text-sm text-gray-400" >Recipe by Joe</span>
+                </div>
+                <div class="badge">
+                  <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  <span>20 mins</span>
+                </div>
+              </div>
+              <div class="card hover:shadow-lg">
+                <img src="/recipes/public/img/paella.jpg" alt="paella" class="w-full h-32 sm:h-48 object-cover" />
+                <div class="m-3">
+                  <span class="font-body font-bold">Mediterran Paella</span>
+                  <span class="font-body block text-sm text-gray-400" >Recipe by Kate</span>
+                </div>
+                <div class="badge">
+                  <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  <span>30 mins</span>
+                </div>
+              </div>
+            </div>
+         
+
+          <div class="flex justify-center">
+            <div class="bg-secondary-100 text-secondary-200 btn border-secondary-200 md:border-2 hover:bg-secondary-200 hover:text-gray-100 mt-6">Load more</div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
